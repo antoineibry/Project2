@@ -3,6 +3,15 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,500;1,600&display=swap');
 
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding:0;
+  font-family: "montserrat",sans-serif;
+
+/*  background-color: #24252A;*/
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -46,4 +55,25 @@
 
 .nav-menu li Link:hover{
   font-weight: 600;
+}
+
+
+
+.heroWrapper{
+  position:relative;
+  width:100vw;
+  height:50vh;
+}
+
+.imageWrapper{
+  z-index: -1;
+}
+
+.heroContent{
+  justify-content: center;
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  color: white;
 }
