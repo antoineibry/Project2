@@ -4,7 +4,7 @@ import Link from "next/link";
 const NavBar = () => {
   return (
     <nav className="navbar">
-    <Link href="#">
+    <Link href="/">
       <Image className="logo" 
       src="/images/logo.png"
        alt="math with antoine" 

@@ -1,6 +1,6 @@
 import Banner from "@components/Banner"
 
-const image_src="/images/banner.png";
+const image_src="/images/banner-pricing.png";
 
 export default function Home() {
   return (
