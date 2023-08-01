@@ -79,6 +79,168 @@
   top:50%;
   left:50%;
   transform: translate(-50%,-50%); /*to make it more centered ada2*/
-  font-size: 50px;
+  font-size: 40px;
   font-weight:600;
+}
+
+
+.social-media{
+  align-items: center; /* align items to the same line! */
+  justify-content: space-between;
+  display:flex;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 20px;
+}
+
+.footer{
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  width:100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #0056d2;
+  text-align: center;
+  flex-direction: column;
+  color:#ffffff87;
+}
+
+.intro{
+  background-color: #edf0f1;
+  display:flex;
+  justify-content: center;
+  padding: 8% 6%;
+}
+
+.imgantoine{
+  border-radius:25%;
+  align-items: center;
+  width: 300px;
+  margin-right:35px;
+  margin-left: 50px;
+}
+
+.intro .abouttext{
+  width: 50%;
+  text-align:left;
+  margin-top:50px;
+  font-weight:500;
+  font-family: "montserrat",sans-serif;
+  color:black;
+  font-size:22px;
+  padding-left:35px;
+}
+
+.intro .abouttext1{
+  font-size:22px;
+}
+
+.intro .abouttext2{
+  font-size:30px;
+  margin-top:30px;
+  font-weight:600;
+}
+
+.intro .abouttext3{
+  font-size:20px;
+  font-weight:600;
+}
+
+.intro button{
+    margin: 20px 0px;
+    padding: 9px 25px;
+    background-color:#0056d2;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; /*0s delay*/
+    color:rgba(255,255,255,1);
+    font-weight:600;
+
+}
+
+
+.booking-box{
+  /*height:47vh;*/
+  width:500px;
+  background-color: #0056d2;
+  border-radius: 6px;
+  padding: 20px 40px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topic-text{
+  color: white;
+  font-weight: 600;
+  font-size:19px;
+  justify-content: center;
+  text-align:center;
+}
+
+.booking-form{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+
+.input-box{
+  height:50px;
+  width:100%;
+  margin:12px 0;
+}
+
+.input-box input, .input-box textarea, .input-box select{
+  height:100%;
+  width:100%;
+  border:none;
+  outline:none;
+  font-size:16px;
+  background:#ffffff;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize:none;
+  color:#777;
+}
+
+.booking-section .button input[type="submit"]{
+  display:inline-block;
+  margin-top: 20px;
+  color: #0056d2;
+  background-color:white;
+  font-size: 20px;
+  font-weight:600;
+  padding: 8px 16px;
+  border-radius: 7px;
+  background: #ffffff;
+  cursor:pointer;
+  transition: all 0.3s ease-in-out;
+  display:flex;
+  justify-content: center;
+}
+
+.content .container{
+  width:90%;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.booking-section{
+  /*min-height: 80vh; not needed, l content m3abbe l box*/
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 60px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
