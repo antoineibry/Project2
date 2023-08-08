@@ -12,6 +12,12 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        'myblue':'#0056d2',
+      },
+      boxShadow:{
+        'booking':' 0 5px 10px rgba(0,0,0,0.2)',
+      }
     },
   },
   plugins: [],

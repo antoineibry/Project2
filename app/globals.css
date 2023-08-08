@@ -55,14 +55,11 @@
 
 .nav-menu li Link:hover{
   font-weight: 600;
-}
-
-
+} 
 
 .heroWrapper{
   position:relative;
-  width:100vw;
-  height:80vh;
+  height:680px;
 }
 
 .imageWrapper{
@@ -217,17 +214,10 @@
   font-weight:600;
   padding: 8px 16px;
   border-radius: 7px;
-  background: #ffffff;
   cursor:pointer;
   transition: all 0.3s ease-in-out;
   display:flex;
   justify-content: center;
-}
-
-.content .container{
-  width:90%;
-  align-items:center;
-  justify-content: space-between;
 }
 
 .booking-section{
