@@ -14,7 +14,12 @@ const TextSection = ({SECTION_IMAGE, TEXT1, TEXT2, TEXT3, BUTTON}) => {
                 <p><i>{TEXT1}</i></p>
                 <p className="text-xl mt-7 font-bold">{TEXT2}</p>
                 <p className="text-lg font-semibold mb-7">{TEXT3}</p>
-                <a className="p-3 -ml-3 bg-myblue text-white rounded-3xl font-semibold border-none" href="#"><button>{BUTTON}</button></a>
+                {BUTTON==""?(
+                  <div></div>
+                ):(
+                  <a className="p-3 -ml-3 bg-myblue text-white rounded-3xl font-semibold border-none" href="#"><button>{BUTTON}</button></a>
+                )
+              }
             </div>
             </div>
     </section>
