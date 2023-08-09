@@ -13,22 +13,22 @@ const Booking = () => {
             <div class="text-white text-left font-semibold text-lg justify-center">Book your free trial session</div>
                 
                 <form>
-                    <div class="h-12 my-3 w-full">
+                    <div class="my-3 w-full">
                         <select name="studentparent" id="studentparent" className="input-box" required>
                             <option value="I am a student"> I am a student</option>
                             <option value="I am a parent">I am a parent</option>
                         </select>
                     </div>
 
-                    <div class="h-12 my-3 w-full">
+                    <div class="my-3 w-full">
                         <input type="text" className="input-box" name="name" placeholder="Name" required />
                     </div>
 
-                    <div class="h-12 my-3 w-full">
+                    <div class="my-3 w-full">
                         <input type="text" className="input-box" name="school" placeholder="School" required />
                     </div>
 
-                    <div class="h-12 my-3 w-full">
+                    <div class="my-3 w-full">
                         <select name="grade" className="input-box" id="grade" required>
                             <option value="Class">Class</option>
                             <option value="EB7">EB7</option>

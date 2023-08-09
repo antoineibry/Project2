@@ -236,5 +236,5 @@
 }
 
 .input-box{
-  @apply w-full rounded-lg  h-full border-none outline-none text-base bg-white px-4 resize-none text-gray-400; 
+  @apply w-full rounded-lg  h-full border-none outline-none text-base bg-white px-4 resize-none text-gray-400 py-3; 
 }
