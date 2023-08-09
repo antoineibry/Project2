@@ -3,7 +3,7 @@ import TextSection from "@components/TextSection";
 import Booking from "@components/Booking";
 
 const image_src="/images/banner-index.png";
-const section_src="/images/banner-index.png";
+const section_src="/images/antoine-teaching.png";
 const text_1="Any student can excel, they just need the proper guidance and the right support!";
 const text_2="Antoine Ibry";
 const text_3="Private Tutor";
