@@ -18,8 +18,10 @@ let getYear = () => {
 
 const Footer = () => (
    
-    <div className="items-center justify-center flex w-full py-5 bg-myblue text-center flex-col text-gray-300">
-        <div className="items-center justify-between flex w-72 mx-auto p-5">
+    <div className=" w-full py-5 bg-myblue text-center flex-col text-gray-300">
+        
+        <div className=" 2xl:container mx-auto items-center justify-center flex">
+        <div className="items-center justify-between flex w-72 p-5">
             <Link href="https://www.instagram.com/antoineibry" target="_blank">
                 <FontAwesomeIcon icon={faInstagram} size="2x" style={{color: "#ffffff",}} />            
                 {/*<i class="fab fa-instagram fa-2x"></i>*/}
@@ -37,7 +39,7 @@ const Footer = () => (
                 <FontAwesomeIcon icon={faEnvelope} size="2x" style={{color: "#ffffff",}} />
             </Link>
         </div>
-
+        </div>
         <p>Copyright {getYear()} Antoine Ibry</p>
 
     </div>
