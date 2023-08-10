@@ -6,7 +6,7 @@ import Image from "next/image";
 function Card({ card_img, card_text }) {
   return (
     <div>
-      <div className=" h-[500px] rounded-3xl col-span-1 sm:row-span-1 sm:px-8 sm:mx-24 sm:my-4 xl:m-1 bg-slate-300 flex flex-col items-center">
+      <div className=" h-[500px] rounded-3xl lg:col-span-1 row-span-1 sm:px-8 sm:mx-24 my-4 lg:my-0 lg:m-1 bg-slate-300 flex flex-col items-center">
         <Image
           src={card_img}
           className="rounded-xl mt-6 h-64 w-[90%]"
@@ -29,7 +29,7 @@ const Cards = ({ elements }) => {
 
   return (
     <section>
-      <div className="grid xl:grid-flow-row xl:grid-cols-3 sm:grid-flow-col sm:grid-rows-3">
+      <div className="grid lg:grid-flow-row lg:grid-cols-3 grid-flow-col grid-rows-3">
         {cards}
       </div>
     </section>

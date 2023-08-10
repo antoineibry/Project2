@@ -9,10 +9,10 @@ const NavBar = () => {
 
   return (
     <nav className="py-3 px-10 bg-myblue font-medium text-white decoration-0">
-      <div className="2xl:container mx-auto flex sm:flex-col justify-between items-center ">
+      <div className="2xl:container mx-auto flex flex-col lg:flex-row justify-between items-center ">
         <Link href="/">
           <Image
-            className="logo sm:mb-10"
+            className="logo mb-10 lg:mb-0"
             src="/images/logo.png"
             alt="math with antoine"
             width={230}
@@ -20,7 +20,7 @@ const NavBar = () => {
           />
         </Link>
 
-        <ul className="list-none sm:flex sm:flex-row">
+        <ul className="list-none sm:flex flex-col flex sm:flex-row">
           <li className="hover:underline inline-block py-0 px-5 min-w-fit">
             <Link href="/services" passHref>
               <div

@@ -4,7 +4,7 @@ import Image from "next/image";
 const TextSection = ({ SECTION_IMAGE, TEXT1, TEXT2, TEXT3, BUTTON }) => {
   return (
     <section className=" bg-gray-200">
-      <div className="2xl:container mx-auto grid lg:grid-flow-col lg:grid-cols-3 sm:grid-flow-row sm:grid-row-3 justify-center px-32 py-14">
+      <div className="2xl:container mx-auto grid lg:grid-flow-col lg:grid-cols-3 sm:grid-flow-row sm:grid-row-3 justify-center sm:px-32 px-5 py-14">
         <div className="flex items-center justify-center">
           <Image
             src={SECTION_IMAGE}
@@ -15,7 +15,7 @@ const TextSection = ({ SECTION_IMAGE, TEXT1, TEXT2, TEXT3, BUTTON }) => {
           />
         </div>
 
-        <div className="text-left sm:text-center mt-14 font-medium text-black text-lg pl-6 sm:row-span-2 lg:col-span-2">
+        <div className="lg:text-left text-center mt-14 font-medium text-black text-lg sm:pl-6 row-span-2 lg:col-span-2">
           <p>
             <i>{TEXT1}</i>
           </p>

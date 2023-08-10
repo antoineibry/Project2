@@ -3,7 +3,9 @@ import Image from "next/image";
 const Banner = ({ IMAGE_URL, heading, paragraph }) => {
   return (
     <div className="relative h-[80vh]">
-      <div className="-z-1"> {/* Set the height here */}
+      <div className="-z-1">
+        {" "}
+        {/* Set the height here */}
         <Image
           priority
           src={IMAGE_URL}
@@ -14,10 +16,12 @@ const Banner = ({ IMAGE_URL, heading, paragraph }) => {
       </div>
 
       <div className="absolute flex flex-col items-center text-white justify-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-semibold">
-        <h1 className="text-4xl font-bold text-center">{heading}</h1> {/* Fixed typo in class name */}
-        <p className="text-3xl mt-6 text-center">{paragraph}</p>
+        <h1 className="text-2xl sm:text-4xl font-bold text-center">
+          {heading}
+        </h1>{" "}
+        {/* Fixed typo in class name */}
+        <p className="text-xl sm:text-3xl mt-6 text-center">{paragraph}</p>
       </div>
-      
     </div>
   );
 };
