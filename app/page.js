@@ -12,7 +12,7 @@ const button_1="Contact Antoine";
 
 const elements= [
   {img:"/images/about.jpeg", text:"Ipsum dolore excepteur laborum sit quis ullamco proident magna."},
-  {img:"/images/services.jpeg", text:"Eu ex laboris ipsum magna pariatur nulla. Aliqua excepteur culpa labore non reprehenderit. Do amet dolore dolor minim elit elit sint cillum excepteur labore cupidatat incididunt. Nostrud sit consequat veniam duis. Ea id ea do quis aliquip velit sunt laboris exercitation consequat non sint."},
+  {img:"/images/services.jpeg", text:"Eu ex laboris ipsum magna pariatur elit elit sint cillum excepteur labore cupidatat incididunt. Nostrud sit consequat veniam duis. Ea id ea do quis aliquip velit sunt laboris exercitation consequat non sint."},
   {img:"/images/pricing.jpeg", text:"Magna anim elit aute qui sint exercitation eu pariatur ipsum mollit commodo sint."}
 
 ]
